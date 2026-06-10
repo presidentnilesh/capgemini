@@ -63,12 +63,12 @@ print(rev)
 
 # wap to print ne string form a old string by extracting only upper case alphabets using askai values and for lopp
 
-s = "HHi I Am YoUr PyThon TraIner"
-rev=""
-for i in s:
-#     if i>='A' and i<="Z" :
-#         rev=i+rev
+# s = "HHi I Am YoUr PyThon TraIner"
+# rev=""
+# for i in s:
+# #     if i>='A' and i<="Z" :
+# #         rev=i+rev
+# # print(rev)
+#     if i.isupper():
+#         rev = i +rev 
 # print(rev)
-    if i.isupper():
-        rev = i +rev 
-print(rev)
