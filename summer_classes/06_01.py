@@ -115,4 +115,29 @@ class DigitalVariable :
         self._transection_limit = transection_limit 
         self.__history = []
 
-    # def __wallet
+    def __valid_amount__(self , amount):
+        if amount < 0 :
+            return False 
+        else : True
+
+    def __check_limit(self , amount):
+        if amount <= self._transection_limit :
+            return True
+        else :
+            return False
+    
+    def add_money(self , amount):
+        if self.__valid_amount(amount):
+            self._balance__ += amount 
+            self.history.append()
+            print("Money added successfully !")
+
+        else :
+            print("Invalid amount")
+        
+    # def send_money(self , amount ):
+    #     if 
+
+
+
+    # def transaction_history()
