@@ -20,10 +20,18 @@
 # f= open('s3.txt' , 'w')
 # f.write(" [1,2,3,4,5,6,7,8,9,10]")
 # f.close()
-
+ 
 # list-comprehension
 
-a = [ i**2 for i in range(10) if i %2 == 0 ]    #jaishe sign hamlog denga waishe he type cast khud sha ho jayega 
-b = { m : m**2 for m in range (14) if m%3 ==0 }
-print(a)
-print(b)
+# a = [ i**2 for i in range(10) if i %2 == 0 ]    #jaishe sign hamlog denga waishe he type cast khud sha ho jayega 
+# b = { m : m**2 for m in range (14) if m%3 ==0 }
+# print(a)
+# print(b)
+
+# write lines
+# L = ['chips\n', 'soda\n', 'easyday']
+# f = open('sample.txt', 'a')
+# f.writelines(L)
+# f.close()
+with open('sample.txt', 'r') as f:
+  print(f.read(7))

@@ -19,7 +19,7 @@
 # f.close()
 
 
-# benifit -> to load a bog file data in memory 
+# benifit -> to load a bog file data in memory   [ for chunk ( to break file in small small file so that it can be easily read )]
 large_data =['so rahi ho kya hai ?' for i in range (1000)]
 print(large_data , end=' ')
 
@@ -34,4 +34,3 @@ with open('large_data.txt' , 'r') as f :
 
         f.read(chunk_size)
 
-        

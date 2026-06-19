@@ -1,4 +1,6 @@
 cgc
 CSE cd
 dumb
-stdents
+stdentschips
+soda
+easyday
